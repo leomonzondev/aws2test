@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.details-container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.details-container>div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    gap: 15px;
+}
+
+.detailsDiv {
+    margin: 0 20px;
+    border: 2px solid black;
+    padding: 20px 20px;
+    font-size: 2em;
+    /* background-color: red; */
+}
+
+
+.link-Home {
+    color: rgb(49, 49, 186);
+}
+
+
+.btn-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-like:hover {
+    background-color: rgb(15, 152, 15);
+}
+.btn-like .icon {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/facebook-like-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+ul{
+    margin-left: 50px;
+}
+li{
+    list-style: square;
+}
+.divLikes{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px black;
+}
+
+.button:hover {
+    background-color: #FF4444;
+}
+
+.button .icon {
+    /* align-items: center; */
+    /* display: inline-block; */
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/home-5-xxl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
